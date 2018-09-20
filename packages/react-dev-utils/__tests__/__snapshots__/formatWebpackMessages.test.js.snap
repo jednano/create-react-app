@@ -25,7 +25,7 @@ Object {
 exports[`formats various webpack errors correctly export not found 1`] = `
 Object {
   "errors": Array [
-    "[7m./template/src/index.js 1:182-185[27m
+    "[7m./template/src/entries/index.js 1:182-185[27m
   './App' does not contain an export named 'App'.",
   ],
   "warnings": Array [],

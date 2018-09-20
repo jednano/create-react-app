@@ -8411,7 +8411,7 @@ exports.push([module.i, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  -web
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************************************************************************************************************************!*\
-  !*** ./packages/react-scripts/~/css-loader?{"importLoaders":1}!./packages/react-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/react-scripts/template/src/index.css ***!
+  !*** ./packages/react-scripts/~/css-loader?{"importLoaders":1}!./packages/react-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/react-scripts/template/src/entries/index.css ***!
   \*******************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17383,15 +17383,15 @@ Object.assign = __webpack_require__(/*! object-assign */ 5);
 /* 133 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************!*\
-  !*** ./packages/react-scripts/template/src/index.js ***!
-  \******************************************************/
+/*!**************************************************************!*\
+  !*** ./packages/react-scripts/template/src/entries/index.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js';
+var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/entries/index.js';
 
 var _react = __webpack_require__(/*! react */ 128);
 
@@ -40048,9 +40048,9 @@ if(true) {
 /* 303 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************!*\
-  !*** ./packages/react-scripts/template/src/index.css ***!
-  \*******************************************************/
+/*!***************************************************************!*\
+  !*** ./packages/react-scripts/template/src/entries/index.css ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -41334,15 +41334,15 @@ module.exports = __webpack_amd_options__;
 /* 308 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/react-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/react-scripts/template/src/index.js ***!
-  \******************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/react-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/react-scripts/template/src/entries/index.js ***!
+  \**************************************************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-dev-utils/webpackHotDevClient.js */131);
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/config/polyfills.js */132);
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-dev-utils/crashOverlay.js */130);
-module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js */133);
+module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/entries/index.js */133);
 
 
 /***/ }),

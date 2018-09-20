@@ -17258,15 +17258,15 @@ Object.assign = __webpack_require__(/*! object-assign */ 5);
 /* 130 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************!*\
-  !*** ./packages/react-scripts/template/src/index.js ***!
-  \******************************************************/
+/*!**************************************************************!*\
+  !*** ./packages/react-scripts/template/src/entries/index.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js';
+var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/entries/index.js';
 
 var _react = __webpack_require__(/*! react */ 125);
 
@@ -41208,15 +41208,15 @@ module.exports = __webpack_amd_options__;
 /* 302 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/react-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/react-scripts/template/src/index.js ***!
-  \******************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/react-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/react-scripts/template/src/entries/index.js ***!
+  \**************************************************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-dev-utils/webpackHotDevClient.js */128);
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/config/polyfills.js */129);
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-dev-utils/crashOverlay.js */127);
-module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/index.js */130);
+module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-react-app/packages/react-scripts/template/src/entries/index.js */130);
 
 
 /***/ })
