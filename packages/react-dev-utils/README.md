@@ -111,12 +111,13 @@ If a file is not found, prints a warning message and returns `false`.
 
 ```js
 var path = require('path');
+var globby = require('globby');
 var checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 
 if (
   !checkRequiredFiles([
     path.resolve('public/index.html'),
-    path.resolve('src/index.js'),
+    ...globby.sync(path.resolve('src/entries/*.js')),
   ])
 ) {
   process.exit(1);
@@ -312,15 +313,23 @@ It currently supports only Webpack 3.x.
 
 ```js
 // Webpack development config
+const globby = require('globby');
+const path = require('path');
+
 module.exports = {
   // ...
-  entry: [
-    // You can replace the line below with these two lines if you prefer the
-    // stock client:
-    // require.resolve('webpack-dev-server/client') + '?/',
-    // require.resolve('webpack/hot/dev-server'),
-    'react-dev-utils/webpackHotDevClient',
-    'src/index',
+  entry: {
+    vendor: [
+      // You can replace the line below with these two lines if you prefer the
+      // stock client:
+      // require.resolve('webpack-dev-server/client') + '?/',
+      // require.resolve('webpack/hot/dev-server'),
+      'react-dev-utils/webpackHotDevClient',
+    ],
+    ...(globby.sync('src/entries/*.js').reduce((result, cur) => {
+      result[path.basename(cur, '.js')] = cur;
+      return result;
+    }, {}),
   ],
   // ...
 };
