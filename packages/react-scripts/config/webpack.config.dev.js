@@ -52,6 +52,10 @@ const sassModuleRegex = /\.module\.(scss|sass)$/;
 const getStyleLoaders = (cssOptions, preProcessor) => {
   const loaders = [
     require.resolve('style-loader'),
+    ...(useTypeScript && cssOptions.modules
+      ? require.resolve('css-modules-typescript-loader')
+      : []
+    ),
     {
       loader: require.resolve('css-loader'),
       options: cssOptions,
